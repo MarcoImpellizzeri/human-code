@@ -1,0 +1,20 @@
+- pacchetto figurine -> (contenitore di carte nuove)
+- carte -> (immagini quadrate)
+- album -> (collezione carte possedute)
+- mazzo doppioni -> (carte gia` inserite nell'album)
+
+1 - apri il pacchetto
+2 - sfila le carte dal pacchetto
+3 - controlla le carte
+    - SE nuova 
+    - inserisci nell'album 
+    - OPPURE se doppiona
+    - metti nella lista doppiona
+4 - FINCHE avanzano carte
+    - ripeti da punto 3
+
+5 - quando finisco il controllo delle carte
+    - SE carte mazzo doppioni > 0
+    - posso scambiarle con gli amici
+    - OPPURE carte mazzo doppioni = 0
+    - non scambiero` nulla
